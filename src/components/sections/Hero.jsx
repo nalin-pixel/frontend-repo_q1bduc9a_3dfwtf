@@ -63,8 +63,8 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 0.8 }}
           className="mt-12 mx-auto max-w-xl rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-4 text-left shadow-xl"
         >
-          <div className="text-slate-200 text-sm">
-            <span className="text-cyan-400">const</span> developer = {
+          <div className="text-slate-200 text-sm font-mono leading-6">
+            <span className="text-cyan-400">const</span> developer = {'{'}
             <br />
             &nbsp;&nbsp;name: <span className="text-emerald-400">'Manthan Parmar'</span>,
             <br />
@@ -72,7 +72,7 @@ export default function Hero() {
             <br />
             &nbsp;&nbsp;status: <span className="text-emerald-400">'Open to exciting opportunities'</span>
             <br />
-            }
+            {'}'}
           </div>
         </motion.div>
       </div>

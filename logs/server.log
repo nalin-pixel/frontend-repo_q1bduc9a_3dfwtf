@@ -3,37 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 271 ms
+  VITE v5.4.20  ready in 295 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.36.47:3000/
-7:37:55 AM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/sections/Hero.jsx:69:17: ERROR: Expected "}" but found ";"
-7:37:56 AM [vite] ✨ new dependencies optimized: framer-motion
-7:37:56 AM [vite] ✨ optimized dependencies changed. reloading
-7:37:56 AM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/sections/Hero.jsx:69:17: ERROR: Expected "}" but found ";"
-The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
-7:38:33 AM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/sections/Hero.jsx:69:17: ERROR: Expected "}" but found ";"
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/sections/Hero.jsx:69:17
-  
-  Expected "}" but found ";"
-  67 |              <span className="text-cyan-400">const</span> developer = {
-  68 |              <br />
-  69 |              &nbsp;&nbsp;name: <span className="text-emerald-400">'Manthan Parmar'</span>,
-     |                   ^
-  70 |              <br />
-  71 |              &nbsp;&nbsp;role: <span className="text-emerald-400">'Frontend / React / Next.js'</span>,
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
